@@ -18,7 +18,7 @@ while (num == current ){
 }
 
 
-document.getElementById("caption").innerHtml = a; //chico[num].description;
+document.getElementById("caption").innerHtml = chico[num].description;
 document.getElementById("source").innerHtml = chico[num].from;
 document.getElementById("picture").src = chico[num].picture;
 
